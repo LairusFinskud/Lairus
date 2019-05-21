@@ -1,0 +1,29 @@
+html {}
+
+body {
+  margin:0;
+  background-color: lightblue;
+}
+
+
+h1.overskrift {
+  font-size: 45px;
+  font-family: "Courier New", monospace;
+  text-align: center;
+}
+
+h3.introskrift {
+  font-size: 30px;
+  text-align: center;
+}
+
+h2.underskrift {
+  background-color: darkgrey;
+  padding: 30px;
+  text-align: center;
+  margin: 0;
+}
+
+#argumenter {
+  text-align: center;
+}

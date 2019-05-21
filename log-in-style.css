@@ -1,0 +1,39 @@
+body {
+  margin:0;
+}
+
+h1.overskrift4 {
+  background-color: lightblue;
+  padding: 50px;
+  text-align: center;
+  margin: 10px;
+}
+
+h2.underskrift4 {
+  background-color: darkgrey;
+  padding: 30px;
+  text-align: center;
+  margin: 0;
+  position: absolute;
+  bottom: 0px;
+  width: 100%;
+}
+
+#log-in-details {
+  text-align: center;
+  box-sizing: content-box;
+  width: 250px;
+  height: 100px;
+  padding: 30px;
+  border: 10px solid black
+}
+
+#register-link {
+  text-align: center;
+  padding-top: 50px;
+  box-sizing: content-box;
+  width: 250px;
+  height: 25px;
+  padding: 30px;
+  border: 10px solid black;
+}

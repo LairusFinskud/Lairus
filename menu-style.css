@@ -1,0 +1,11 @@
+(baren skal være lightgray eller gray)
+
+.menu-item {
+border-left: 5px solid black;
+height: 70px;
+margin-left: 100px;
+}
+
+a:hover {
+  background-color: darkgray eller dimgray
+}

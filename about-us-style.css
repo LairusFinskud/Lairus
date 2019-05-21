@@ -1,0 +1,17 @@
+body {
+  margin:0;
+}
+
+h1.overskrift3 {
+  background-color: lightblue;
+  padding: 50px;
+  text-align: center;
+  margin: 10px;
+}
+
+h2.underskrift3 {
+  background-color: darkgrey;
+  padding: 30px;
+  text-align: center;
+  margin: 0;
+}
