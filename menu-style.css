@@ -1,9 +1,18 @@
-(baren skal være lightgray eller gray)
+/*(baren skal være lightgray eller gray) */
+#menu {
+  display: flex;
+  justify-content: space-around;
+  font-size: 2rem;
+  border-top: 1px solid gray;
+  border-bottom: 1px solid gray;
 
-.menu-item {
-border-left: 5px solid black;
-height: 70px;
-margin-left: 100px;
+  margin-bottom: 1em;
+}
+
+.menu-item {}
+
+.icon {
+  max-height: 2em;
 }
 
 a:hover {

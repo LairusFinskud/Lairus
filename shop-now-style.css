@@ -1,5 +1,5 @@
 body {
-  margin:0;
+  margin: 0;
 }
 
 .overskrift2 {
@@ -14,4 +14,17 @@ h2.underskrift2 {
   padding: 30px;
   text-align: center;
   margin: 0;
+}
+
+.buy-button {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
 }
