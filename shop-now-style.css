@@ -17,14 +17,66 @@ h2.underskrift2 {
 }
 
 .buy-button {
-  background-color: #4CAF50;
-  border: none;
-  color: white;
-  padding: 15px 32px;
-  text-align: center;
-  text-decoration: none;
   display: inline-block;
-  font-size: 16px;
-  margin: 4px 2px;
+  border-radius: 4px;
+  background-color: skyblue;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 28px;
+  padding: 10px;
+  width: 125px;
+  transition: all 0.5s;
   cursor: pointer;
+  margin: 5px;
+}
+
+.buy-button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.buy-button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.buy-button:hover span {
+  padding-right: 25px;
+}
+
+.buy-button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+.product-text-style {
+  text-align: center;
+  box-sizing: content-box;
+  background-color: lightgray;
+  margin: auto;
+  width: 250px;
+  height: 150px;
+  padding: 30px;
+  border: 8px solid black;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-template-areas: "heading heading"
+    "price button";
+}
+
+.product-title {
+  grid-area: heading;
+}
+
+.price {
+  display: inline;
+  font-size: 2rem;
 }

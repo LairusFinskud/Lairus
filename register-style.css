@@ -13,10 +13,7 @@ h2.underskrift5 {
   background-color: darkgrey;
   padding: 30px;
   text-align: center;
-  margin: 0;
-  position: absolute;
-  bottom: 0px;
-  width: 100%;
+  margin: 1em 0 0 0;
 }
 
 #register-details {

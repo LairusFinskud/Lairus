@@ -6,21 +6,22 @@
   <title>About us</title>
   <link rel="stylesheet" type="text/css" href="about-us-style.css">
   <script src="script.js"></script>
+  <link rel="icon" href="img/favicon.png" type="image/gif" sizes="16x16">
+  <link rel="stylesheet" type="text/css" href="menu-style.css">
 </head>
 
 <body>
   <div class="container">
     <h1 class="overskrift3">About us</h1>
     <div id="menu">
-      <p>
-        <a href="index.html">
-          <img src="https://cdn2.iconfinder.com/data/icons/minimal-set-two/32/minimal-39-128.png" alt="Home" />
-        </a>
-        <a href="shop-now.html">Shop now</a>
-        <a href="#">About us</a>
-        <a href="log-in.html">
-          <img src="https://cdn3.iconfinder.com/data/icons/line/36/person-128.png" alt="Log in" />
-        </a>
+      <a href="index.html" class="menu-item">
+        <img class="icon"  src="https://cdn2.iconfinder.com/data/icons/minimal-set-two/32/minimal-39-128.png" alt="Home" />
+      </a>
+      <a href="shop-now.html" class="menu-item menu-text">Shop now</a>
+      <a href="#" class="menu-item menu-text">About us</a>
+      <a href="log-in.html" class="menu-item">
+        <img class="icon" src="https://cdn3.iconfinder.com/data/icons/line/36/person-128.png" alt="Log in" />
+      </a>
     </div>
     <!-- TODO: denne skal kunne bli større når du trykker på den -->
     <div onclick="toggelAboutUs()">
@@ -160,19 +161,30 @@
         <p>Please note that Lairus does not use your email for promotional purposes or disclose it to a third party.<p>
 
             <p>Please be sure to include in any email or postal mail request your full name, email address, postal address, and any message.<p>
-                <form action="index.html">
-                  First name:
-                  <input type="text" name="FirstName" value="" /></br>
-                  Last name:
-                  <input type="text" name="LastName" value="" /></br>
-                  Email:
-                  <input type="text" name="FirstName" value="" /></br>
-                  Phone number:
-                  <input type="text" name="LastName" value="" /></br>
-                  Your message:
-                  <input type="text" name="FirstName" value="" /></br>
-                  <input type="submit" value="Submit" />
-                </form>
+                <div id="contact-us-skjema">
+                  <form action="index.html">
+                    <h3>First name:<br></h3>
+                    <input type="text" name="FirstName" value="" />
+                    </br>
+                    <h3>Last name:<br>
+                      <h3>
+                        <input type="text" name="LastName" value="" />
+                        </br>
+                        <h3>Email:<br>
+                          <h3>
+                            <input type="text" name="FirstName" value="" />
+                            </br>
+                            <h3>Phone number:<br>
+                              <h3>
+                                <input type="text" name="LastName" value="" />
+                                </br>
+                                <h3>Your message:<br>
+                                  <h3>
+                                    <input type="text" name="FirstName" value="" />
+                                    </br>
+                                    <input type="submit" value="Submit" />
+                  </form>
+                </div>
     </div>
   </div>
 

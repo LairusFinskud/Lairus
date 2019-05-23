@@ -5,10 +5,9 @@ html {
 body {
   margin: 0;
   display: grid;
-
-    grid-template-rows: 1fr 5.5em;
-    grid-template-areas: "content"
-                         "footer";
+  grid-template-rows: 1fr 5.5em;
+  grid-template-areas: "content"
+    "footer";
   height: 100%;
 }
 
@@ -51,7 +50,8 @@ h2.underskrift3 {
   display: inline-block;
   font-size: 16px;
   margin: 4px 2px;
-  -webkit-transition-duration: 0.4s; /* Safari */
+  -webkit-transition-duration: 0.4s;
+  /* Safari */
   transition-duration: 0.4s;
   cursor: pointer;
 }
@@ -60,7 +60,7 @@ h2.underskrift3 {
   background-color: white;
   color: black;
   border: 2px solid lightblue;
-  width: 50%;
+  width: 100%;
 }
 
 .button1:hover {
@@ -81,7 +81,7 @@ h2.underskrift3 {
   background-color: white;
   color: black;
   border: 2px solid lightblue;
-  width: 50%;
+  width: 100%;
 }
 
 .button2:hover {
@@ -102,10 +102,21 @@ h2.underskrift3 {
   background-color: white;
   color: black;
   border: 2px solid lightblue;
-  width: 50%;
+  width: 100%;
 }
 
 .button3:hover {
   background-color: lightblue;
   color: white;
+}
+
+#contact-us-skjema {
+  text-align: center;
+  box-sizing: content-box;
+  background-color: lightgray;
+  margin: left;
+  width: 300px;
+  height: 420px;
+  padding: 30px;
+  border: 8px solid black
 }

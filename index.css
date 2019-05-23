@@ -2,7 +2,11 @@ html {}
 
 body {
   margin: 0;
-  background-color: lightblue;
+  background-color: #7395AE;
+}
+
+li {
+  list-style: none;
 }
 
 h1.overskrift {
@@ -28,8 +32,11 @@ h2.underskrift {
 }
 
 #pictures-index {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
+  display:flex;
+  justify-content: center;
+  max-width: 100%;
+}
+
+#pictures-index img {
+  margin: 10px;
 }

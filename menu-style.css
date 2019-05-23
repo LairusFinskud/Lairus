@@ -1,20 +1,33 @@
 /*(baren skal være lightgray eller gray) */
 #menu {
-  display: flex;
-  justify-content: space-around;
+  display: grid;
+  grid-template-columns: 3em 1fr 1fr 3em;
   font-size: 2rem;
-  border-top: 1px solid gray;
-  border-bottom: 1px solid gray;
-
+  border-top: 2px solid #5D5C61;
+  border-bottom: 2px solid #5D5C61;
   margin-bottom: 1em;
+  width: 100%;
+  background-color: #379683;
 }
 
-.menu-item {}
+.menu-item {
+  border-left: 1px solid black;
+  width: 100%;
+  text-align: center;
+}
+
+.menu-item:nth-child(1) {
+  border-left: none;
+}
 
 .icon {
   max-height: 2em;
 }
 
 a:hover {
-  background-color: darkgray eller dimgray
+  background-color: skyblue;
+}
+
+.menu-text {
+  padding-top: 0.5em;
 }
