@@ -11,17 +11,20 @@ li {
 
 h1.overskrift {
   font-size: 45px;
+  color: #f8f8fa;
   font-family: "Courier New", monospace;
   text-align: center;
 }
 
 h3.introskrift {
   font-size: 30px;
+  color: #f8f8fa;
   text-align: center;
 }
 
 h2.underskrift {
-  background-color: darkgrey;
+  background-color: #5d5c61;
+  color: #f8f8fa;
   padding: 30px;
   text-align: center;
   margin: 0;

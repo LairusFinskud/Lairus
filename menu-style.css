@@ -3,15 +3,16 @@
   display: grid;
   grid-template-columns: 3em 1fr 1fr 3em;
   font-size: 2rem;
-  border-top: 2px solid #5D5C61;
-  border-bottom: 2px solid #5D5C61;
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
   margin-bottom: 1em;
   width: 100%;
-  background-color: #379683;
+  background-color: #c0c2ce;
 }
 
 .menu-item {
   border-left: 1px solid black;
+  color: black;
   width: 100%;
   text-align: center;
 }
@@ -25,7 +26,7 @@
 }
 
 a:hover {
-  background-color: skyblue;
+  background-color: #938e94;
 }
 
 .menu-text {

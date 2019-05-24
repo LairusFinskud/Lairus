@@ -3,15 +3,17 @@ body {
 }
 
 h1.overskrift4 {
-  background-color: lightblue;
+  background-color: #7395AE;
+  color: #f8f8fa;
   padding: 50px;
   text-align: center;
   margin: 10px;
 }
 
 h2.underskrift4 {
-  background-color: darkgrey;
-  padding: 30px;
+  background-color: #5D5C61;
+  color: #f8f8fa;
+  padding: 30px 0;
   text-align: center;
   margin: 0;
   position: absolute;
@@ -22,7 +24,7 @@ h2.underskrift4 {
 #log-in-details {
   text-align: center;
   box-sizing: content-box;
-  background-color: lightgray;
+  background-color: #c0c2ce;
   margin: auto;
   width: 300px;
   height: 300px;

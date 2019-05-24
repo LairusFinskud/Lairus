@@ -3,23 +3,28 @@ body {
 }
 
 h1.overskrift5 {
-  background-color: lightblue;
+  background-color: #7395AE;
+  color: #f8f8fa;
   padding: 50px;
   text-align: center;
   margin: 10px;
 }
 
 h2.underskrift5 {
-  background-color: darkgrey;
-  padding: 30px;
+  background-color: #5D5C61;
+  color: #f8f8fa;
+  padding: 30px 0;
   text-align: center;
   margin: 1em 0 0 0;
+  position: absolute;
+  bottom: 0px;
+  width: 100%;
 }
 
 #register-details {
   text-align: center;
   box-sizing: content-box;
-  background-color: lightgray;
+  background-color: #c0c2ce;
   margin: auto;
   width: 350px;
   height: 550px;
