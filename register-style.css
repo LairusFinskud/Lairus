@@ -1,5 +1,6 @@
 body {
   margin: 0;
+  height: 100%;
 }
 
 h1.overskrift5 {
@@ -16,9 +17,8 @@ h2.underskrift5 {
   padding: 30px 0;
   text-align: center;
   margin: 1em 0 0 0;
-  position: absolute;
-  bottom: 0px;
   width: 100%;
+  grid-area: footer;
 }
 
 #register-details {
@@ -29,5 +29,14 @@ h2.underskrift5 {
   width: 350px;
   height: 550px;
   padding: 30px;
-  border: 8px solid black
+  border: 8px solid black;
+  grid-area: content;
+}
+
+.content {
+  display: grid;
+  grid-template-rows: 1fr 5.5em;
+  grid-template-areas: "content"
+    "footer";
+  row-gap: 10px;
 }
